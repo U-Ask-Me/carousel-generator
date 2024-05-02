@@ -106,7 +106,7 @@ export default function RootLayout({
         <div className="flex-1 h-full flex flex-col justify-stretch ">
           {children}
         </div>
-        <SiteFooter />
+        {/* <SiteFooter /> */}
         <Toaster />
       </body>
     </html>

@@ -48,6 +48,7 @@ export function AIInputForm() {
   async function onSubmit(data: z.infer<typeof FormSchema>) {
     setIsLoading(true);
     setStatus("loading");
+    console.log(process.env.OPENAI_API_KEY);
 
     const generatedSlides = await generateCarouselSlidesAction(
       `A carousel with about "${data.prompt}"`

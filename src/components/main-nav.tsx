@@ -59,8 +59,8 @@ export function MainNav({ handlePrint, isPrinting, className }: MainNavProps) {
             )}
           </div>
         </Button>
-        <StarOnGithub />
-        <Link
+        {/* <StarOnGithub /> */}
+        {/* <Link
           className="block lg:hidden"
           href={"https://github.com/FranciscoMoretti/carousel-generator"}
           target="_blank"
@@ -77,7 +77,7 @@ export function MainNav({ handlePrint, isPrinting, className }: MainNavProps) {
             <Icons.gitHub className="h-5 w-5" />
             <span className="sr-only">GitHub</span>
           </div>
-        </Link>
+        </Link> */}
         {/* // TODO: Re-enable your own keys system  */}
         {/* <BringYourKeysDialog
           triggerButton={
